@@ -43,7 +43,7 @@
 
 ## 🚀 使い方
 
-### 1. 事前準備
+ 1. 事前準備
 
 Python環境に以下のライブラリをインストールしてください。
 
@@ -51,10 +51,8 @@ Python環境に以下のライブラリをインストールしてください�
 pip install selenium beautifulsoup4
 また、ChromeDriver を自身の環境にあったバージョンでインストールしてください。
 
-2. スクリプト実行
-bash
-コピーする
-編集する
+ 2. スクリプト実行
+
 python scraper.py
 実行後、CSVとログファイルが同じディレクトリに生成されます。
 
@@ -84,22 +82,6 @@ GUI化やWebアプリ化による使いやすさの向上
 📜 ライセンス
 このプロジェクトはMITライセンスのもとで公開されています。
 
-yaml
-コピーする
-編集する
 
----
 
-### 🔧 GitHubへのアップロード手順
 
-1. GitHubで新しいリポジトリを作成（例: `news-title-scraper`）。
-2. 以下のようにローカルで操作します：
-
-```bash
-cd your_project_folder/
-git init
-git add .
-git commit -m "initial commit"
-git remote add origin https://github.com/your-username/news-title-scraper.git
-git push -u origin main
-※ your-username と your_project_folder は自身の環境に合わせて変更してください。
